@@ -16,14 +16,21 @@ public class Main {
         System.out.println("Значение переменной varDouble с типом double равно " + varDouble);
 
         //2
-        System.out.println("#2 (у этого задания не предусмотрен вывод :( )");
+        System.out.println("#2");
         varFloat = 27.12f;
+        System.out.println(varFloat);
         varLong = 987678965549L;
+        System.out.println(varLong);
         varDouble = 2.786;
+        System.out.println(varDouble);
         varShort = 569;
+        System.out.println(varShort);
         short varShort1 = -159; //типов шесть, а значений в задании дано семь, поэтому еще одна переменная
+        System.out.println(varShort1);
         varInt = 27897;
+        System.out.println(varInt);
         varByte = 67;
+        System.out.println(varByte);
 
         //3
         System.out.println("#3");
@@ -33,9 +40,9 @@ public class Main {
 
         //4
         System.out.println("#4");
-        short bottlesIn20Min = (short) 16 * (20 / 2);
+        int bottlesIn20Min = 16 * (20 / 2);
         System.out.println("За 20 минут машина произвела " + bottlesIn20Min + " штук бутылок");
-        short bottlesIn1Day = (short) 16 * (24 * 60 / 2);
+        int bottlesIn1Day = 16 * (24 * 60 / 2);
         System.out.println("За 1 сутки машина произвела " + bottlesIn1Day + " штук бутылок");
         int bottlesIn3Days = 16 * (3 * 24 * 60 / 2);
         System.out.println("За 3 дня машина произвела " + bottlesIn3Days + " штук бутылок");
